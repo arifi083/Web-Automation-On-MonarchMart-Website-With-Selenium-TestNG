@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+<!--    <test verbose="2" preserve-order="true" name="C:/Users/Arif/IdeaProjects/monarchmart">-->
+
+<!--        <classes>-->
+<!--            <class name="testcases.LoginTest"></class>-->
+<!--            <class name="testcases.NavbarTest"> </class>-->
+<!--            <class name="testcases.ProductTest"> </class>-->
+<!--            <class name="testcases.ProductDetailsTest"> </class>-->
+<!--            <class name="testcases.ShoppingCartTest"> </class>-->
+<!--            <class name="testcases.OrderTest"> </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+    <test name="test 1" parallel="methods">
+        <classes>
+            <class name="LoginTest"> </class>
+        </classes>
+    </test>
+    <test name="Test 2" parallel="methods">
+        <classes>
+            <class name="NavbarTest"> </class>
+        </classes>
+    </test>
+    <test name="Test 3" parallel="methods">
+        <classes>
+            <class name="ProductTest"> </class>
+        </classes>
+    </test>
+    <test name="Test 4" parallel="methods">
+        <classes>
+            <class name="ProductDetailsTest"> </class>
+        </classes>
+    </test>
+    <test name="Test 5" parallel="methods">
+        <classes>
+            <class name="ShoppingCartTest"> </class>
+        </classes>
+    </test>
+    <test name="Test 5" parallel="methods">
+        <classes>
+            <class name="OrderTest"> </class>
+        </classes>
+    </test>
+
+
+</suite>
